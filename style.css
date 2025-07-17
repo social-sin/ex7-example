@@ -1,0 +1,66 @@
+/*universal selector*/
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+img {
+  width: 100vw;
+  height: auto;
+}
+
+.cap {
+  color: slategray;
+}
+
+a:link {
+  color: slategray;
+}
+
+a:visited {
+  color: forestgreen;
+}
+
+a:hover {
+  color: indigo;
+}
+
+a:active{
+  color: aquamarine;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+/*No touch*/
+h1, h2, nav, .cap, footer {
+  text-align: center;
+}
+
+nav {
+  padding: 1rem 0 2rem 0;
+}
+
+figure, h2, footer {
+  padding-bottom: 1rem;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+p{
+  margin: 0 10vw;
+}
