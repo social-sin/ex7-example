@@ -1,66 +1,81 @@
-/*universal selector*/
+/* Universal Selector */
 * {
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
-  color: black;
+  box-sizing: border-box;
+  font-family: sans-serif;
   font-size: 16px;
+  color: black;
 }
 
+/* Headings */
 h1 {
   font-size: 34px;
+  text-align: center;
 }
 
 h2 {
   color: darkgreen;
+  text-align: center;
 }
 
+/* Navigation */
+nav {
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: slategray;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: forestgreen;
+}
+
+nav a:hover {
+  color: indigo;
+}
+
+nav a:active {
+  color: aquamarine;
+}
+
+/* Images & Figures */
 img {
-  width: 100vw;
+  width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+figure {
+  padding-bottom: 1rem;
+  text-align: center;
 }
 
 .cap {
   color: slategray;
 }
 
-a:link {
-  color: slategray;
-}
-
-a:visited {
-  color: forestgreen;
-}
-
-a:hover {
-  color: indigo;
-}
-
-a:active{
-  color: aquamarine;
-}
-
-footer a:hover {
-  text-decoration: none;
-}
-
-/*No touch*/
-h1, h2, nav, .cap, footer {
-  text-align: center;
-}
-
-nav {
-  padding: 1rem 0 2rem 0;
-}
-
-figure, h2, footer {
-  padding-bottom: 1rem;
-}
-
+/* Sections & Paragraphs */
 section {
   padding: 2rem 0;
 }
 
-p{
+p {
   margin: 0 10vw;
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
